@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="APP-BUS-L-10/APP-BUS-L-10.csproj" />
+  <Project Path="APP-DATA-A-10/APP-DATA-A-10.csproj" />
+  <Project Path="App-User-10/App-User-10.csproj" />
+</Solution>

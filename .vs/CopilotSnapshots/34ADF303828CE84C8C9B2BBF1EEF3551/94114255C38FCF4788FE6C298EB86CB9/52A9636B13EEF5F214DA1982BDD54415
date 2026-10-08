@@ -1,0 +1,73 @@
+﻿@model IEnumerable<UsersViewM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Users</h1>
+<br />
+<br />
+
+<form asp-action="Index" class="m-5">
+    <div class="row">
+        <div class="col-8">
+            <input name="searchName" id="searchName" type="text" placeholder="Search..." class="form-control" />
+        </div>
+        <div class="col-4">
+            <input type="submit" class="btn btn-success" />
+        </div>
+
+    </div>
+</form>
+
+
+
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped table-hover">
+         <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(D => D.Id)</th>
+                <th>@Html.DisplayNameFor(D => D.FName)</th>
+                <th>@Html.DisplayNameFor(D => D.LName)</th>
+                <th>@Html.DisplayNameFor(D => D.Email)</th>
+                <th>@Html.DisplayNameFor(D => D.Roles)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead> 
+
+
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.FName</td>
+                    <td>@user.LName</td>
+                    <td>@user.Email</td>
+             
+               
+                  <td>@string.Join(", ", user.Roles)</td>
+                  
+                      <partial name="_Buttons" model="user.Id" />
+                    <td>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@user.Id">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+}
+else
+{
+    <div class="mt-4 alert alert-warning">
+        <h4>There is No Users :(</h4>
+    </div>
+}

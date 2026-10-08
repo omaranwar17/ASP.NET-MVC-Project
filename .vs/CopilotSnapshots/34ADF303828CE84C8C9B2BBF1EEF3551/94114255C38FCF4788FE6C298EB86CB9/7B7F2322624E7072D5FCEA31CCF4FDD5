@@ -1,0 +1,51 @@
+﻿using APP_DATA_A_10.Models.Auth_User;
+using App_User_10.ViewModels.Users;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+
+namespace App_User_10.Controllers
+{
+    public class UsersController : Controller
+    {
+        private readonly UserManager<AppUser> _userManager;
+        public UsersController(UserManager<AppUser> userManager)
+        {
+            _userManager = userManager;
+
+        }
+        public IActionResult Index(string? searchName)
+        {
+        var users = new List<UsersViewM>();
+
+            if (string.IsNullOrEmpty(searchName))
+            {
+                 users = _userManager.Users.Select((u)=> new UsersViewM
+                {
+                    Id = u.Id,
+                    Email = u.Email,
+                    FName = u.FName,
+                    LName = u.LName,
+                    PhoneNumber = u.PhoneNumber,
+                    Roles = _userManager.GetRolesAsync(u).Result
+                }).ToList();
+                
+            }
+            else
+            {
+                users = _userManager.Users.Where((u)=> u.NormalizedEmail.Contains(searchName.ToUpper()))
+                        .Select((u) => new UsersViewM()
+                  {
+                      Id = u.Id,
+                      Email = u.Email,
+                      FName = u.FName,
+                      LName = u.LName,
+                      PhoneNumber = u.PhoneNumber,
+                      Roles = _userManager.GetRolesAsync(u).Result
+                 }
+             ).ToList();
+            }
+            return View(users);
+
+        }
+    }
+}

@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "CheckYourInbox";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<div class="main-agileinfo">
+    <div class="agileits-top">
+        <h1>Check Your Inbox</h1>
+        <p>We have sent a password reset link to your email address. Please check your inbox and follow the instructions to reset your password.</p>
+        <p>If you do not receive the email within a few minutes, please check your spam or junk folder.</p>
+
+    <div class="d" style="display:flex; gap:30px; align-items:center; justify-content:center; flex-wrap:wrap;">
+
+    <a href="https://mail.google.com" target="_blank" class="btn" style="text-decoration:none;">
+        Open Gmail
+    </a>
+
+    <a asp-action="LogIn" style="text-decoration:none;">
+        Back to Login
+    </a>
+
+</div>
+
+      
+    </div>
+</div>

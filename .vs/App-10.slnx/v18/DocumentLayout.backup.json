@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\App-10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\views\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|d:\\.net\\app-10\\app-user-10\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9C112B-DDAF-58AA-E419-79B3ACFB3EC4}|App-User-10\\App-User-10.csproj|solutionrelative:app-user-10\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Views\\Auth\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "App-User-10\\Views\\Auth\\AccessDenied.cshtml",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Views\\Auth\\AccessDenied.cshtml",
+              "RelativeToolTip": "App-User-10\\Views\\Auth\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T16:22:52.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "App-User-10\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "App-User-10\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T15:53:13.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "App-User-10\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "App-User-10\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T15:53:00.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "App-User-10\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "App-User-10\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-07T15:44:07.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Program.cs",
+              "RelativeDocumentMoniker": "App-User-10\\Program.cs",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Program.cs",
+              "RelativeToolTip": "App-User-10\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T15:35:13.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "App-User-10\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "App-User-10\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAUwOsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T15:35:33.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\.net\\App-10\\App-User-10\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "App-User-10\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\.net\\App-10\\App-User-10\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "App-User-10\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAgwBABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T15:34:56.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

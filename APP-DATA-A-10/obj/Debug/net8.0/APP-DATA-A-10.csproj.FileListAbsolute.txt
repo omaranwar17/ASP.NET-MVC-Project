@@ -1,0 +1,13 @@
+D:\.net\App-10\APP-DATA-A-10\bin\Debug\net8.0\APP-DATA-A-10.deps.json
+D:\.net\App-10\APP-DATA-A-10\bin\Debug\net8.0\APP-DATA-A-10.dll
+D:\.net\App-10\APP-DATA-A-10\bin\Debug\net8.0\APP-DATA-A-10.pdb
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.csproj.AssemblyReference.cache
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.AssemblyInfoInputs.cache
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.AssemblyInfo.cs
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.csproj.CoreCompileInputs.cache
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.dll
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\refint\APP-DATA-A-10.dll
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA-A-10.pdb
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\ref\APP-DATA-A-10.dll
+D:\.net\App-10\APP-DATA-A-10\obj\Debug\net8.0\APP-DATA.85DAB372.Up2Date
